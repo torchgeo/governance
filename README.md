@@ -19,9 +19,9 @@ The TorchGeo Organization is led by folks from the following organizations:
 <br/>
 <br/>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="logos/wherobots_dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="logos/wherobots_light.svg"/>
-  <img alt="Wherobots" src="logos/wherobots_light.svg" width="300"/>
+  <source media="(prefers-color-scheme: dark)" srcset="logos/tg_dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="logos/tg_light.svg"/>
+  <img alt="Taylor Geospatial" src="logos/tg_light.svg" width="300"/>
 </picture>
 <br/>
 <br/>
