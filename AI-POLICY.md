@@ -37,7 +37,7 @@ When you report an issue, we hope that you can describe the issue in your own wo
 
 ## Conciseness
 
-One of the biggest reasons for maintainer burnout is the sheer conciseness of most AI contributions. All of a sudden, it is easier than ever to generate a massive feature request that requires scrolling even on desktop or a thousand line PR to implement a complex feature. This has led to not only more PRs, but longer PRs that take exponentially more time and energy to carefully review. Please keep all issues and PRs short and succinct. Avoid combining large refactors and new features in the same PR. While there are no hard requirements for word or line limits, if your PR could reasonably be split into many smaller PRs, we will likely ask you to do just that.
+One of the biggest reasons for maintainer burnout is the sheer verbosity of most AI contributions. All of a sudden, it is easier than ever to generate a massive feature request that requires scrolling even on desktop or a thousand line PR to implement a complex feature. This has led to not only more PRs, but longer PRs that take exponentially more time and energy to carefully review. Please keep all issues and PRs short and succinct. Avoid combining large refactors and new features in the same PR. While there are no hard requirements for word or line limits, if your PR could reasonably be split into many smaller PRs, we will likely ask you to do just that.
 
 ## Disclosure
 
