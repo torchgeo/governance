@@ -15,7 +15,7 @@ Below we provide details and the rationale behind each requirement. Note that th
 
 ## Responsibility
 
-Contributors have the opportunity to help us build better software. However, with great power comes great responsibility. Regardless of whether they were written by your or by AI, you are ultimately responsible for your contributions. In particular, you must:
+Contributors have the opportunity to help us build better software. However, with great power comes great responsibility. Regardless of whether they were written by you or by AI, you are ultimately responsible for your contributions. In particular, you must:
 
 - understand every line of code or documentation that you contribute,
 - ensure that you have permission (usually from your employer) to contribute to one of our projects, and
