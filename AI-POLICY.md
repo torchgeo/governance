@@ -49,7 +49,7 @@ No one likes guessing whether they are reading something that was written by a h
 - [ ] 🟡 **AI-assisted**: AI helped with the coding, but I understand every line
   - AI was used to generate the initial boilerplate, but required significant iteration and interaction
   - You understand, manually reviewed, and manually tested every line before opening the PR
-- [ ] 🔴 **AI-generated**: AI did everything, review with caution
+- [ ] 🔴 **AI-generated**: AI did everything (may be closed immediately)
   - AI generated all code with little to no interaction beyond the initial prompt
   - You cannot explain the logic behind your implementation without asking the AI
 
