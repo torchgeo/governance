@@ -75,7 +75,7 @@ Before tackling an issue or opening a PR with the assistance of AI, think about 
 This AI policy was not developed in a vacuum. While some of the above policy decisions may seem strict, they are quite common among our dependencies:
 
 - [Python](https://devguide.python.org/getting-started/generative-ai/): responsibility, conciseness, copyright
-- [pip](https://github.com/pypa/pip/blob/main/AI_POLICY.md)/[attrs](https://github.com/python-attrs/attrs/blob/main/.github/AI_POLICY.md): responsibility, copyright, communication, conciseness, guiding philosophy
+- [pip](https://github.com/pypa/pip/blob/main/AI_POLICY.md): responsibility, copyright, communication, conciseness, guiding philosophy
 - [uv/ruff/ty](https://github.com/astral-sh/.github/blob/main/AI_POLICY.md): responsibility, communication, copyright
 - [Conda](https://docs.conda.io/projects/conda/en/latest/dev-guide/contributing.html#generative-ai): responsibility, copyright, communication, conciseness
 - [NumPy](https://numpy.org/devdocs/dev/ai_policy.html)/[SciPy](https://scipy.github.io/devdocs/dev/conduct/ai_policy.html)/[SymPy](https://docs.sympy.org/dev/contributing/ai-generated-code-policy.html): responsibility, disclosure, copyright, communication, new contributors
