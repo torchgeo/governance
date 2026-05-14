@@ -7,7 +7,7 @@ The TorchGeo Organization maintains a number of popular AI libraries. Our users 
 - [**Communication**](#communication): Issue/PR descriptions, replies, and comments must be written by humans, not AI
 - [**Conciseness**](#conciseness): Good issues/PRs are concise, multiple contributions should be split into multiple PRs
 - [**Disclosure**](#disclosure): You must disclose if and how AI was used, fully autonomous/agentic PRs are rejected
-- [**New Contributors**](#new-contributors): AI-assisted coding is reserved for existing contributors, cannot use AI for "good first issue"
+- [**First-Time Contributors**](#first-time-contributors): AI-assisted coding is reserved for existing contributors, cannot use AI for "good first issue"
 - [**Guiding Philosophy**](#guiding-philosophy): Ensure that your contributors are faster to review than to rewrite
 - [**References**](#references): References to AI policies of our dependencies
 
@@ -55,7 +55,7 @@ No one likes guessing whether they are reading something that was written by a h
 
 Human-authored code requires significantly more time and effort, resulting in fewer hallucinations that look right but do not actually work. Small human-authored PRs generally only require a single approval before being merge. AI-assisted code can be prone to hallucinations, and often repeats common mistakes from the data it was trained on. AI-assisted PRs require at least two maintainers to approve them before being merged. AI-generated code is not accepted at this time, see [Copyright](#copyright) for more details.
 
-## New Contributors
+## First-Time Contributors
 
 One of the most rewarding aspects of open source is community building. We routinely train new contributors who may someday be maintainers of the library. However, new contributors are often unfamiliar with the codebase and require time to learn the style of existing code. As such, AI-assisted code is not permitted for new contributors.
 
