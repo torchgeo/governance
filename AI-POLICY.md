@@ -17,7 +17,7 @@ LLMs are trained on massive amounts of copyrighted material without the consent 
 
 ### Legal Concerns
 
-LLMs have been shown to be capable of reproducing entire copyrighted works.[^3][^4] When using LLMs, it can be difficult if not impossible to know whether the code they produce contains copyrighted material from the training dataset. Unfortunately, if you use LLMs and unintentionally introduce copyright violations into our software, you are not the person who will be sued, we are. While the courts are still undecided on whether the use of LLMs constitutes copyright infringement, US courts have ruled that AI cannot hold copyright.[^5] Since all contributions to our software must be contributed under an open source license, you must hold copyright over the code you would like to contribute. This prevents fully autonomous or "agentic" AI from contributing to our libraries.
+LLMs have been shown to be capable of reproducing entire copyrighted works.[^3][^4] When using LLMs, it can be difficult to know whether the code they produce contains copyrighted material from the training dataset. Unfortunately, if you use LLMs and unintentionally introduce copyright violations into our software, you are not the person who will be sued, we are. While the courts are still undecided on whether the use of LLMs constitutes copyright infringement, US courts have ruled that AI cannot hold copyright.[^5] Since all contributions to our software must be contributed under an open source license, you must hold copyright over the code you would like to contribute. This prevents fully autonomous or "agentic" AI from contributing to our libraries.
 
 [^3]: [Mueller et al., 2024, LLMs and Memorization: On Quality and Specificity of Copyright Compliance](https://doi.org/10.1609/aies.v7i1.31697)
 [^4]: [Ahmed et al., 2026, Extracting books from production language models](https://doi.org/10.48550/arXiv.2601.02671)
@@ -25,25 +25,26 @@ LLMs have been shown to be capable of reproducing entire copyrighted works.[^3][
 
 ### Environmental Concerns
 
-LLM training and deployment require a substantial amount of energy and water, with data centers contributing to urban heat islands and climate change.[^6] Studies have shown that models like GPT-4 emit 5–19 times more CO<sub>2</sub> than human programmers to generate code of similar quality.[^7] As a software ecosystem centered around environmental and climate research, we also strive to minimize our carbon footprint in software development.
+LLM training and deployment require a substantial amount of energy and water for cooling, with data centers contributing to urban heat islands and climate change.[^6] Energy usage by GPU-accelerated AI servers grew from less than 2 TWh in 2017 to more than 40 TWh in 2023, with data centers now accounting for 4.4% of total U.S. electricity consumption.[^7] Studies have shown that models like GPT-4 emit 5–19 times more CO<sub>2</sub> than human programmers to generate code of similar quality.[^8] As a software ecosystem centered around environmental and climate research, we must also strive to minimize our carbon footprint in software development.
 
 [^6]: [Singh et al., 2025, A Survey of Sustainability in Large Language Models: Applications, Economics, and Challenges](https://doi.org/10.1109/CCWC62904.2025.10903774)
-[^7]: [Woo, 2025, A comparative study of AI and human programming on environmental sustainability](https://doi.org/10.1038/s41598-025-24658-5)
+[^7]: [Shehabi et al., 2024, 2024 United States Data Center Energy Usage Report](https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf)
+[^8]: [Woo, 2025, A comparative study of AI and human programming on environmental sustainability](https://doi.org/10.1038/s41598-025-24658-5)
 
 ### Logistical Concerns
 
-We have seen a significant increase in PRs lately thanks to LLMs. However, this has also resulted in our maintainers being stretched thin. [AI slop](https://en.wikipedia.org/wiki/AI_slop) and unnecessarily verbose code has resulted in PRs that are double the typical length.[^8] While it is easier than ever to generate large PRs, it takes humans exponentially longer to review these PRs. This has led to _extractive_ contributions that take more out of the project than they add:[^9]
+We have seen a significant increase in PRs lately thanks to LLMs. However, this has also resulted in our maintainers being stretched thin. [AI slop](https://en.wikipedia.org/wiki/AI_slop) and unnecessarily verbose code has resulted in PRs that are double the typical length.[^9] While it is easier than ever to generate large PRs, it takes humans exponentially longer to review these PRs. This has led to _extractive_ contributions that take more out of the project than they add:[^10]
 
 > When attention is being appropriated, producers need to weigh the costs and benefits of the transaction. To assess whether the appropriation of attention is net-positive, it's useful to distinguish between _extractive_ and _non-extractive_ contributions. Extractive contributions are those where the marginal cost of reviewing and merging that contribution is greater than the marginal benefit to the project's producers. In the case of a code contribution, it might be a pull request that's too complex or unwieldy to review, given the potential upside.
 
-[^8]: [Baltes et al., 2026, "An Endless Stream of AI Slop": The Growing Burden of AI-Assisted Software Development](https://doi.org/10.48550/arXiv.2603.27249)
-[^9]: [Eghbal, 2020, Working in Public: The Making and Maintenance of Open Source Software](https://press.stripe.com/working-in-public)
+[^9]: [Baltes et al., 2026, "An Endless Stream of AI Slop": The Growing Burden of AI-Assisted Software Development](https://doi.org/10.48550/arXiv.2603.27249)
+[^10]: [Eghbal, 2020, Working in Public: The Making and Maintenance of Open Source Software](https://press.stripe.com/working-in-public)
 
 ### Educational Concerns
 
-Open source software is sustained by its contributors, and teaching new contributors to become future maintainers can be even more important than the code being contributed. Research by Anthropic has found that "AI use impairs conceptual understanding, code reading, and debugging abilities, without delivering significant efficiency gains on average."[^10] However, certain uses of AI are more detrimental than others. While the use of AI to explain existing code can help, the use of AI to automate tasks like code writing results in poorer understanding of the code and review process.
+Open source software is sustained by its contributors, and teaching new contributors to become future maintainers can be even more important than the code being contributed. Research by Anthropic has found that "AI use impairs conceptual understanding, code reading, and debugging abilities, without delivering significant efficiency gains on average."[^11] However, certain uses of AI are more detrimental than others. While the use of AI to explain existing code can help, the use of AI to automate tasks like code writing results in poorer understanding of the code and review process.
 
-[^10]: [Shen and Tamkin, 2026, How AI Impacts Skill Formation](https://doi.org/10.48550/arXiv.2601.20245)
+[^11]: [Shen and Tamkin, 2026, How AI Impacts Skill Formation](https://doi.org/10.48550/arXiv.2601.20245)
 
 ## Policy
 
@@ -59,7 +60,7 @@ Regardless of whether they were written by you or by AI, you are ultimately resp
 
 Accidents happen, and everyone has introduced one or two security vulnerabilities before ([right? right!?](https://github.com/torchgeo/torchgeo/security/advisories/GHSA-ghq9-vc6f-8qjf)). The important thing is not that your code is perfect, but that you take responsibility for its quality and correctness. This includes apologizing for mistakes, fixing bugs, and reporting vulnerabilities.
 
-Before tackling an issue or opening a PR with the assistance of AI, think about whether you could reasonably solve this problem or implement this feature without the use of AI. If not, it is unlikely that you will be able to fully understand the AI implementation.
+Before tackling an issue or opening a PR with the assistance of AI, think about whether you could reasonably solve this problem or implement this feature without the use of AI. If not, it is unlikely that you will be able to fully grasp the AI implementation.
 
 ### Copyright
 
