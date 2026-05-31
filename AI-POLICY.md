@@ -1,6 +1,6 @@
 # AI Policy
 
-The TorchGeo Organization maintains a number of popular AI libraries. Our users and developers are all AI enthusiasts, thus it should come as no surprise that many contributors would also like to use large language models (LLMs) to contribute to TorchGeo. However, to ensure the quality and maintainability of our software and avoid maintainer burnout, we have to set some boundaries.
+The TorchGeo Organization maintains a number of popular ML libraries. Our users and developers are all ML enthusiasts, thus it should come as no surprise that many contributors would also like to use large language models (LLMs) to contribute to TorchGeo. However, to ensure the quality and maintainability of our software and avoid maintainer burnout, we have to set some boundaries.
 
 Note that this is a rapidly evolving landscape, and we may make frequent updates to this policy in order to keep up with new developments in generative AI.
 
