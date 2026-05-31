@@ -68,7 +68,7 @@ Fully autonomous or "agentic" AI contributions are not accepted as AI cannot hol
 
 ### Communication
 
-When you report an issue, we hope that you can describe the issue in your own words. Similarly, when you open a PR, we hope that you can summarize your implementation without AI assistance to guarantee you understand your own contribution. We may ask clarifying questions or suggest improvements to your PR. Please refrain from using AI to automatically respond to maintainer questions. It is fine to use AI for proofreading (typos/grammar) or translation, however.
+All communication with maintainers, including descriptions and comments on issues and PRs, should be made by humans. When you report an issue, we want to see you describe the issue in your own words to ensure you spent time debugging it. Similarly, when you open a PR, we want to see you summarize your implementation without AI assistance to guarantee you understand your own contribution. We may ask clarifying questions or suggest improvements to your PR. Please refrain from using AI to automatically respond to maintainer questions. It is fine to use AI for proofreading (typos/grammar) or translation, however.
 
 ### Conciseness
 
