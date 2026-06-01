@@ -55,7 +55,7 @@ The following requirements apply to all use of generative AI for contributing to
 Regardless of whether they were written by you or by AI, you are ultimately responsible for your contributions. In particular, you must:
 
 - understand every line of code or documentation that you contribute,
-- ensure that you have permission (usually from your employer) to contribute to one of our projects, and
+- ensure that you have permission (usually from your employer) to contribute, and
 - take responsibility for any bugs you introduce.
 
 Accidents happen, and everyone has introduced one or two security vulnerabilities before ([right? right!?](https://github.com/torchgeo/torchgeo/security/advisories/GHSA-ghq9-vc6f-8qjf)). The important thing is not that your code is perfect, but that you take responsibility for its quality and correctness. This includes apologizing for mistakes, fixing bugs, and reporting vulnerabilities.
@@ -85,14 +85,10 @@ All PRs must disclose to what extent AI was involved in writing the code using t
   - AI was used to generate the initial boilerplate, but required significant iteration and interaction
   - You understand, manually reviewed, and manually tested every line before opening the PR
   - These PRs require at least two maintainers to approve before they can be merged
-- [ ] 🔴 **AI-generated**: AI did everything (will be closed immediately)
+- [ ] 🔴 **AI-generated**: AI did everything, review with caution
   - AI generated all code with little to no interaction beyond the initial prompt
   - You cannot explain the logic behind your implementation without asking the AI
   - These PRs will be closed immediately, as AI cannot hold copyright
-
-### First-Time Contributors
-
-AI-assisted code is not permitted for first-time contributors. Instead, your first PR must be written by hand to ensure you understand the style and design of the library. We routinely mark issues that are well documented and rather straightforward to contribute as "good first issue". These are designed to onboard new contributors and teach them how to contribute to our software. AI-assisted solutions to these issues would defeat the purpose and are thus forbidden.
 
 ## Enforcement
 
@@ -113,12 +109,12 @@ This AI policy was not developed in a vacuum. While some of the above policies m
 - [pip](https://github.com/pypa/pip/blob/main/AI_POLICY.md): responsibility, copyright, communication, conciseness
 - [uv/ruff/ty](https://github.com/astral-sh/.github/blob/main/AI_POLICY.md): responsibility, communication, copyright
 - [Conda](https://docs.conda.io/projects/conda/en/latest/dev-guide/contributing.html#generative-ai): responsibility, copyright, communication, conciseness
-- [NumPy](https://numpy.org/devdocs/dev/ai_policy.html)/[SciPy](https://scipy.github.io/devdocs/dev/conduct/ai_policy.html)/[SymPy](https://docs.sympy.org/dev/contributing/ai-generated-code-policy.html): responsibility, disclosure, copyright, communication, first-time contributors
+- [NumPy](https://numpy.org/devdocs/dev/ai_policy.html)/[SciPy](https://scipy.github.io/devdocs/dev/conduct/ai_policy.html)/[SymPy](https://docs.sympy.org/dev/contributing/ai-generated-code-policy.html): responsibility, disclosure, copyright, communication
 - [Matplotlib](https://matplotlib.org/devdocs/devel/contribute.html#generative-ai): responsibility, communication, copyright
 - [pandas](https://pandas.pydata.org/docs/dev/development/contributing.html#automated-contributions-policy): disclosure, responsibility, verbosity
 - [scikit-learn](https://scikit-learn.org/dev/developers/contributing.html#automated-contributions-policy): communication, responsibility, disclosure
 - [scikit-image](https://scikit-image.org/docs/dev/development/contribute.html#ai-policy): responsibility, copyright, conciseness, disclosure
-- [PyTorch](https://github.com/pytorch/pytorch/blob/main/CONTRIBUTING.md#ai-assisted-development): responsibility, conciseness, first-time contributors, communication
+- [PyTorch](https://github.com/pytorch/pytorch/blob/main/CONTRIBUTING.md#ai-assisted-development): responsibility, conciseness, communication
 - [Kornia](https://github.com/kornia/kornia/blob/main/AI_POLICY.md): responsibility, conciseness, communication, disclosure
 - [GDAL](https://gdal.org/en/stable/community/ai_tool_policy.html)/[QGIS](https://github.com/qgis/QGIS-Enhancement-Proposals/blob/master/qep-408-ai-tool-policy.md)/[STAC](https://github.com/stac-utils/stac-utils.github.io/blob/main/docs/ai-contribution-policy.md): responsibility, communication, disclosure, copyright, conciseness
 
