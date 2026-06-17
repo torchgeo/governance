@@ -6,11 +6,11 @@ Note that this is a rapidly evolving landscape, and we may make frequent updates
 
 ## Policy
 
-The following requirements apply to all use of generative AI for contributing to code and documentation via both pull requests and issues.
+The following requirements apply to all interactions on GitHub, including discussions, issues, pull requests, code, documentation, and comments. While many of these requirements are designed with generative AI in mind, they also apply to human-authored contributions as well.
 
 ### Responsibility
 
-Regardless of whether they were written by you or by AI, you are ultimately responsible for your contributions. In particular, you must:
+You are ultimately responsible for your contributions. In particular, you must:
 
 - understand every line of code or documentation that you contribute,
 - ensure that you have permission (usually from your employer) to contribute, and
