@@ -16,13 +16,17 @@ Regardless of whether they were written by you or by AI, you are ultimately resp
 - ensure that you have permission (usually from your employer) to contribute, and
 - take responsibility for any bugs you introduce.
 
-Accidents happen, and everyone has introduced one or two security vulnerabilities before ([right? right!?](https://github.com/torchgeo/torchgeo/security/advisories/GHSA-ghq9-vc6f-8qjf)). The important thing is not that your code is perfect, but that you take responsibility for its quality and correctness. This includes apologizing for mistakes, fixing bugs, and reporting vulnerabilities.
+Accidents happen, and everyone has introduced one or two security vulnerabilities before (right? right!?[^1]). The important thing is not that your code is perfect, but that you take responsibility for its quality and correctness. This includes apologizing for mistakes, fixing bugs, and reporting vulnerabilities.
 
 Before tackling an issue or opening a PR with the assistance of AI, think about whether you could reasonably solve this problem or implement this feature without the use of AI. If not, it is unlikely that you will be able to fully grasp the AI implementation.
 
+[^1]: [TorchGeo Security Vulnerability](https://github.com/torchgeo/torchgeo/security/advisories/GHSA-ghq9-vc6f-8qjf)
+
 ### Copyright
 
-Fully autonomous or "agentic" AI contributions are not accepted as AI cannot hold copyright. You as a contributor are responsible for determining whether or not your contributions contain any code that is copied from a project under a different license. If you are not able to confirm whether or not your code is free from copyright issues, please do not open a PR. Instead, open an issue and ask someone else to contribute for you.
+Fully autonomous or "agentic" AI contributions are not accepted as AI cannot hold copyright[^2]. You as a contributor are responsible for determining whether or not your contributions contain any code that is copied from a project under a different license. If you are not able to confirm whether or not your code is free from copyright issues, please do not open a PR. Instead, open an issue and ask someone else to contribute for you.
+
+[^2]: [Thaler v. Perlmutter, 2025](https://media.cadc.uscourts.gov/opinions/docs/2025/03/23-5233.pdf)
 
 ### Communication
 
