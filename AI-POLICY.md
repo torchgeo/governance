@@ -1,0 +1,88 @@
+# AI Policy
+
+The TorchGeo Organization maintains a number of popular ML libraries. Our users and developers are all ML enthusiasts, thus it should come as no surprise that many contributors would also like to use large language models (LLMs) to contribute to TorchGeo. However, to ensure the quality and maintainability of our software and avoid maintainer burnout, we have to set some boundaries.
+
+Note that this is a rapidly evolving landscape, and we may make frequent updates to this policy in order to keep up with new developments in generative AI.
+
+## Policy
+
+The following requirements apply to all use of generative AI for contributing to code and documentation via both pull requests and issues.
+
+### Responsibility
+
+Regardless of whether they were written by you or by AI, you are ultimately responsible for your contributions. In particular, you must:
+
+- understand every line of code or documentation that you contribute,
+- ensure that you have permission (usually from your employer) to contribute, and
+- take responsibility for any bugs you introduce.
+
+Accidents happen, and everyone has introduced one or two security vulnerabilities before ([right? right!?](https://github.com/torchgeo/torchgeo/security/advisories/GHSA-ghq9-vc6f-8qjf)). The important thing is not that your code is perfect, but that you take responsibility for its quality and correctness. This includes apologizing for mistakes, fixing bugs, and reporting vulnerabilities.
+
+Before tackling an issue or opening a PR with the assistance of AI, think about whether you could reasonably solve this problem or implement this feature without the use of AI. If not, it is unlikely that you will be able to fully grasp the AI implementation.
+
+### Copyright
+
+Fully autonomous or "agentic" AI contributions are not accepted as AI cannot hold copyright. You as a contributor are responsible for determining whether or not your contributions contain any code that is copied from a project under a different license. If you are not able to confirm whether or not your code is free from copyright issues, please do not open a PR. Instead, open an issue and ask someone else to contribute for you.
+
+### Communication
+
+All communication with maintainers, including descriptions and comments on issues and PRs, should be made by humans. When you report an issue, we want to see you describe the issue in your own words to ensure you spent time debugging it. Similarly, when you open a PR, we want to see you summarize your implementation without AI assistance to guarantee you understand your own contribution. We may ask clarifying questions or suggest improvements to your PR. Please refrain from using AI to automatically respond to maintainer questions. It is fine to use AI for proofreading (typos/grammar) or translation, however.
+
+### Conciseness
+
+Please keep all issues and PRs short and succinct. Avoid combining large refactors and new features in the same PR. While there are no hard requirements for word or line limits, if your PR could reasonably be split into many smaller PRs, we will likely ask you to do just that.
+
+### Disclosure
+
+All PRs must disclose to what extent AI was involved in writing the code using the following template:
+
+- [ ] 🟢 **No AI usage**: written by humans, for humans
+  - You wrote all code yourself without AI assistance, great job!
+  - These PRs require at least one maintainer to approve before they can be merged
+- [ ] 🟡 **AI-assisted**: AI helped with the coding, but I understand every line
+  - AI was used to generate the initial boilerplate, but required significant iteration and interaction
+  - You understand, manually reviewed, and manually tested every line before opening the PR
+  - These PRs require at least two maintainers to approve before they can be merged
+- [ ] 🔴 **AI-generated**: AI did everything, review with caution
+  - AI generated all code with little to no interaction beyond the initial prompt
+  - You cannot explain the logic behind your implementation without asking the AI
+  - These PRs will be closed immediately, as AI cannot hold copyright
+
+## Enforcement
+
+The above policy will be enforced more strictly depending on how many times a contributor violates the policy, not based on the severity of the violation. In all cases, a maintainer will point out exactly which part of the AI policy has been violated so that contributors can learn from their mistakes.
+
+1. First-time offense: ask the contributor to make corrections.
+2. Second-time offense: immediately close the issue/PR.
+3. Third-time offense: a temporary ban on all contributions.
+4. Fourth-time offense: a permanent ban on all contributions.
+
+These penalties do not apply to contributions made before this policy was adopted, and do not stack for multiple contributions made at the same time.
+
+## References
+
+This AI policy was not developed in a vacuum. While some of the above policies may seem strict, they are quite common among our dependencies:
+
+- [Python](https://devguide.python.org/getting-started/generative-ai/): responsibility, conciseness, copyright
+- [Requests](https://github.com/psf/requests/blob/main/.github/AI_POLICY.md): responsibility, copyright, communication, conciseness
+- [pip](https://github.com/pypa/pip/blob/main/AI_POLICY.md): responsibility, copyright, communication, conciseness
+- [Conda](https://docs.conda.io/projects/conda/en/latest/dev-guide/contributing.html#generative-ai): responsibility, copyright, communication, conciseness
+- [uv](https://github.com/astral-sh/.github/blob/main/AI_POLICY.md): responsibility, communication, copyright
+- [ruff](https://github.com/astral-sh/.github/blob/main/AI_POLICY.md): responsibility, communication, copyright
+- [ty](https://github.com/astral-sh/.github/blob/main/AI_POLICY.md): responsibility, communication, copyright
+- [Sphinx](https://github.com/sphinx-doc/sphinx/blob/master/doc/internals/ai-policy.rst): responsibility, disclosure, copyright, communication
+- [Pytest](https://github.com/pytest-dev/pytest/blob/main/CONTRIBUTING.rst#aillm-assisted-contributions-policy): responsibility, communication, disclosure
+- [NumPy](https://numpy.org/devdocs/dev/ai_policy.html): responsibility, disclosure, copyright, communication
+- [SciPy](https://scipy.github.io/devdocs/dev/conduct/ai_policy.html): responsibility, disclosure, copyright, communication
+- [Matplotlib](https://matplotlib.org/devdocs/devel/contribute.html#generative-ai): responsibility, communication, copyright
+- [pandas](https://pandas.pydata.org/docs/dev/development/contributing.html#automated-contributions-policy): disclosure, responsibility, verbosity
+- [Xarray](https://github.com/pydata/xarray/blob/main/doc/contribute/ai-policy.md): responsibility, communication, conciseness
+- [scikit-learn](https://scikit-learn.org/dev/developers/contributing.html#automated-contributions-policy): communication, responsibility, disclosure
+- [scikit-image](https://scikit-image.org/docs/dev/development/contribute.html#ai-policy): responsibility, copyright, conciseness, disclosure
+- [PyTorch](https://github.com/pytorch/pytorch/blob/main/CONTRIBUTING.md#ai-assisted-development): responsibility, conciseness, communication
+- [Kornia](https://github.com/kornia/kornia/blob/main/AI_POLICY.md): responsibility, conciseness, communication, disclosure
+- [GDAL](https://gdal.org/en/latest/community/ai_tool_policy.html): copyright, responsibility, disclosure, conciseness
+- [QGIS](https://github.com/qgis/QGIS-Enhancement-Proposals/blob/master/qep-408-ai-tool-policy.md): responsibility, communication, disclosure, conciseness, copyright
+- [STAC](https://github.com/stac-utils/stac-utils.github.io/blob/main/docs/ai-contribution-policy.md): responsibility, communication, disclosure, conciseness, copyright
+
+In particular, our AI policy is most heavily influenced by NumPy, with the disclosure template design coming from Kornia!
