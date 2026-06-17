@@ -24,7 +24,7 @@ Before tackling an issue or opening a PR with the assistance of AI, think about 
 
 ### Copyright
 
-Fully autonomous or "agentic" AI contributions are not accepted as AI cannot hold copyright[^2]. You as a contributor are responsible for determining whether or not your contributions contain any code that is copied from a project under a different license. If you are not able to confirm whether or not your code is free from copyright issues, please do not open a PR. Instead, open an issue and ask someone else to contribute for you.
+Fully autonomous or "agentic" AI contributions are not accepted as AI cannot hold copyright.[^2] You as a contributor are responsible for determining whether or not your contributions contain any code that is copied from a project under a different license. If you are not able to confirm whether or not your code is free from copyright issues, please do not open a PR. Instead, open an issue and ask someone else to contribute for you.
 
 [^2]: [Thaler v. Perlmutter, 2025](https://media.cadc.uscourts.gov/opinions/docs/2025/03/23-5233.pdf)
 
@@ -34,7 +34,9 @@ All communication with maintainers, including descriptions and comments on issue
 
 ### Conciseness
 
-Please keep all issues and PRs short and succinct. Avoid combining large refactors and new features in the same PR. While there are no hard requirements for word or line limits, if your PR could reasonably be split into many smaller PRs, we will likely ask you to do just that.
+AI makes it easier than ever to quickly open a PR with minimal effort. However, without careful involvement of a human-in-the-loop, this can result in overly verbose PRs containing defensive coding and unnecessary testing. While this may save you time, human maintainers still have to review every line of code, unfairly shifting the burden and leading to "extractive contributions".[^3] Please keep all issues and PRs short and succinct. Avoid combining large refactors and new features in the same PR. While there are no hard requirements for word or line limits, if your PR could reasonably be split into many smaller PRs, we will likely ask you to do just that.
+
+[^3]: [Eghbal, 2020, Working in Public: The Making and Maintenance of Open Source Software](https://press.stripe.com/working-in-public)
 
 ### Disclosure
 
