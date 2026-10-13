@@ -7,11 +7,12 @@ This document lists the members of the Organization's Steering Committee. Voting
 | Adam Stewart (Chair) | [@adamjstewart](https://github.com/adamjstewart)     | TUM             |
 | Caleb Robinson       | [@calebrob6](https://github.com/calebrob6)           | Microsoft       |
 | Anthony Ortiz        | [@anthonymlortiz](https://github.com/anthonymlortiz) | Microsoft       |
+| Nils Lehmann         | [@nilsleh](https://github.com/nilsleh)               | Microsoft       |
 | Isaac Corley         | [@isaaccorley](https://github.com/isaaccorley)       | Taylor Geospatial |
 | Ashwin Nair          | [@ashnair1](https://github.com/ashnair1)             | Space42         |
-| Nils Lehmann         | [@nilsleh](https://github.com/nilsleh)               | TUM             |
 | Romeo Kienzler       | [@romeokienzler](https://github.com/romeokienzler)         | IBM Research    |
-| Isabelle Wittmann    | [@isabelle-wittmann](https://github.com/Isabelle-Wittmann)     | IBM Research    |
+| Rosie Lickorish      | [@rosielickorish](https://github.com/rosielickorish)     | IBM Research    |
+| Isabelle Wittmann    | [@isabelle-wittmann](https://github.com/Isabelle-Wittmann)     | UZH             |
 
 ## How to Join
 
