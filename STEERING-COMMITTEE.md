@@ -2,17 +2,17 @@
 
 This document lists the members of the Organization's Steering Committee. Voting members may be added once approved by the Steering Committee as described in the [charter](./CHARTER.md). By adding your name to this list you are agreeing to abide by all Organization policies, including the [charter](./CHARTER.md), the [code of conduct](./CODE-OF-CONDUCT.md), the [trademark policy](./TRADEMARKS.md), and the [antitrust policy](./ANTITRUST.md).
 
-| **Name**             | **Handle**                                           | **Affiliation** |
-| -------------------- | ---------------------------------------------------- | --------------- |
-| Adam Stewart (Chair) | [@adamjstewart](https://github.com/adamjstewart)     | TUM             |
-| Caleb Robinson       | [@calebrob6](https://github.com/calebrob6)           | Microsoft       |
-| Anthony Ortiz        | [@anthonymlortiz](https://github.com/anthonymlortiz) | Microsoft       |
-| Nils Lehmann         | [@nilsleh](https://github.com/nilsleh)               | Microsoft       |
-| Isaac Corley         | [@isaaccorley](https://github.com/isaaccorley)       | Taylor Geospatial |
-| Ashwin Nair          | [@ashnair1](https://github.com/ashnair1)             | Space42         |
-| Romeo Kienzler       | [@romeokienzler](https://github.com/romeokienzler)         | IBM Research    |
-| Rosie Lickorish      | [@rosielickorish](https://github.com/rosielickorish)     | IBM Research    |
-| Isabelle Wittmann    | [@isabelle-wittmann](https://github.com/Isabelle-Wittmann)     | UZH             |
+| **Name**             | **Handle**                                                 | **Affiliation**   |
+| -------------------- | ---------------------------------------------------------- | ----------------- |
+| Adam Stewart (Chair) | [@adamjstewart](https://github.com/adamjstewart)           | TUM               |
+| Caleb Robinson       | [@calebrob6](https://github.com/calebrob6)                 | Microsoft         |
+| Anthony Ortiz        | [@anthonymlortiz](https://github.com/anthonymlortiz)       | Microsoft         |
+| Isaac Corley         | [@isaaccorley](https://github.com/isaaccorley)             | Taylor Geospatial |
+| Ashwin Nair          | [@ashnair1](https://github.com/ashnair1)                   | Space42           |
+| Nils Lehmann         | [@nilsleh](https://github.com/nilsleh)                     | Microsoft         |
+| Romeo Kienzler       | [@romeokienzler](https://github.com/romeokienzler)         | IBM Research      |
+| Isabelle Wittmann    | [@isabelle-wittmann](https://github.com/Isabelle-Wittmann) | UZH               |
+| Rosie Lickorish      | [@rosielickorish](https://github.com/rosielickorish)       | IBM Research      |
 
 ## How to Join
 
